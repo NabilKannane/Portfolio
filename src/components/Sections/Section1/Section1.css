@@ -6,11 +6,65 @@
   margin: auto;
 }
 
-.div1 {
-  width: 440px;
-}
-
 
 .div3 {
   width: 440px;
+}
+
+/*-----------------------------------------*/
+
+.div1 {
+  width: 440px;
+
+}
+
+.Div1Card{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.26) -10px 0px 60px;
+  border-radius:  25px;
+  padding: 15px;
+  height: 80px;
+  width: 300px;
+  position: relative;
+  top: 90px;
+  left: 50px;
+}
+
+.sous-div1{
+  content: url("../../../imgs/icons8-waving-hand-emoji-96.png");  
+  width: 30%;
+  height: 100%;
+}
+.sous-div2{
+  height: 100%;
+  width: 70%;
+  padding-left: 20px;
+  line-height: 35px;
+
+}
+
+/* ====================== DIV 3 ==============================*/
+.socialmedia{
+
+  height: 400px;
+  width: 80px;
+  float: right;
+  margin-top: 100px;
+  text-align:center;
+}
+
+.divSM{
+
+  display:inline-block;
+ 
+  margin : auto;
+  margin-top: 22px;
+  width: 60px;
+  height:60px;
+  border-radius: 100%;
+  background-color: red;
+
+}
+#linkdin{
+  content: url();
 }

@@ -33,8 +33,17 @@ ul{
     text-transform: capitalize;
     font-size: 1rem;
     margin: 30px;
-
 }
+
+
+.m-link:hover{
+    text-decoration: none;
+    color: var(--sndcolor);
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin: 30px;
+}
+
 
 .LinkHireMe{
     background-color: var(--sndcolor);

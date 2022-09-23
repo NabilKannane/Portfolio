@@ -5,8 +5,12 @@
   }
   
 .myphoto {
-    width: 200px;
+  position: relative;
+  z-index: 1;
+    width: 250px;
     margin-top: 50px;
+  border-radius: 0px 110px 110px;
+
   }
   
   .buttons {
@@ -46,7 +50,7 @@
     padding: 5px 40px;
     border-radius: 5px;
     margin: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
   }
   
   

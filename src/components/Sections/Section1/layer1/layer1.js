@@ -3,6 +3,7 @@ import "./layer1.css"
 export default function layer1() {
   return (
     <div className="div2">
+      
     <img
       className="myphoto"
       src="https://www.pngkit.com/png/full/84-841251_personpleasantly-distracted-man-thinking-hand-thinking.png"

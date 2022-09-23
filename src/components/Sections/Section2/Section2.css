@@ -1,6 +1,25 @@
-.section{
-    background-color: rgb(255, 249, 200);
+.section2{
+    
     padding: 100px;
 
+
+}
+
+.work-card1{
+    margin: 20px;
+    background-color: var(--sndcolor);
+    height: 400px;
+    width: 800px;
+    border-radius: 30px;
+
+}
+
+.work-card2{
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.301) 10px 5px 50px;
+    height: 400px;
+    width: 320px;
+    border-radius: 30px;
 
 }
