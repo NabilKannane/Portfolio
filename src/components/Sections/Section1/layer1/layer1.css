@@ -1,0 +1,61 @@
+
+.div2 {
+    width: 440px;
+    text-align: center;
+  }
+  
+.myphoto {
+    width: 200px;
+    margin-top: 50px;
+  }
+  
+  .buttons {
+    justify-content: space-between;
+  }
+  
+  .btn {
+    border: none;
+    padding: 8px 50px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-HireMe {
+    margin-right: 7.5px;
+    border: solid 2px var(--sndcolor);
+    color: var(--sndcolor);
+    background-color: transparent;
+  }
+  
+  .btn-Resume {
+    padding: 9px 50px;
+    margin-left: 7.5px;
+    background-color: var(--sndcolor);
+    color: #fff;
+  }
+  .Info {
+    font-family: "Poppins" regular;
+  }
+  .Info h1 {
+    padding: 7px;
+    letter-spacing: 1px;
+  }
+  
+  .Info span{
+    color: var(--sndcolor);
+    padding: 5px 40px;
+    border-radius: 5px;
+    margin: 15px;
+    letter-spacing: 2px;
+  }
+  
+  
+  
+  
+  .Info p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 23px;
+    font-size: 1.05rem;
+  }
+  

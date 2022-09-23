@@ -1,0 +1,44 @@
+
+.menu {
+
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.m-left{
+    float: left;
+}
+.m-right{
+    float: right;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    font-weight: 900;
+    font-size: 14px;
+    
+}
+
+ul{
+    display: flex;   
+    list-style: none;
+}
+
+
+.m-link{
+    text-decoration: none;
+    color: #212529;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin: 30px;
+
+}
+
+.LinkHireMe{
+    background-color: var(--sndcolor);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #fff;
+}
