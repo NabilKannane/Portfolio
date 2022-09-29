@@ -1,8 +1,13 @@
 :root{
     --white : #fff;
-    --colorfont :#212529 ;
-    --sndcolor : rgb(93, 33, 206);
+    --colorfont :#e4e4e4 ;
+    --sndcolor : #4a5cfc;
+    --sndcolorhover : #374bff;
+
+    --darkbg : rgb(28, 28, 31);
+    --darkbgb : rgb(29, 29, 36);
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +16,7 @@
 }
 
 body{
-    background-color: #fff;
+    background-color: var(--darkbg);
     color: var(--colorfont);
 }
 
@@ -30,3 +35,6 @@ body{
     display: flex;
 }
 
+.section {
+    width: 1320px;
+}

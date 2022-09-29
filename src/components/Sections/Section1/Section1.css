@@ -1,70 +1,155 @@
 .section1 {
-  background-color: #fff;
+  background-color: var(--darkbg);
   display: flex;
   width: 100%;
   height: 625px;
   margin: auto;
+  margin-top: 40px;
 }
 
 
-.div3 {
-  width: 440px;
-}
 
-/*-----------------------------------------*/
+/*---------------------div1--------------------*/
 
 .div1 {
-  width: 440px;
+  width: 660px;
+  height: 100%;
+}
+
+.div1 span{
+  color: var(--sndcolor);
+  font-size: 5rem;
+  margin: 50px 50px 30px;
+}
+
+.div1 .barredeco{
+  width: 12px;
+  height: 140px;
+  background: linear-gradient(rgb(100, 100, 100) , var(--sndcolor));
+  position: absolute;
+  top: 280px;
+  margin-left: 30px;
+  border-radius: 2px;
+}
+
+.div1 .hello_iam{
+  margin-top: 40px;
+  font-size: 1.3rem;
+ 
 
 }
 
-.Div1Card{
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.26) -10px 0px 60px;
-  border-radius:  25px;
-  padding: 15px;
-  height: 80px;
-  width: 300px;
+.div1 #nom{
+  font-size: 3.5rem;
+  margin-right: 50px;
+}
+
+.div1 #paragraphe{
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+.div1 #domaine{
+  color: var(--sndcolor);
+}
+
+
+.div1 p, h1, .btns{
+  margin-left: 80px;
+}
+
+.div1 #btnHireMe{
+  border: solid 2px var(--sndcolor);
+  background-color: transparent;
+  color: var(--sndcolor);
+  padding: 5px 50px;
+  border-radius: 5px;
+}
+
+.div1 #btnResume{
+  border: solid 2px var(--sndcolor);
+  background-color: var(--sndcolor);
+  color: #fff;
+  padding: 5px 50px;
+  margin-top: 12px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+/*---------------------div2--------------------*/
+
+.div2{
+  width: 660px;
+  height: 100%;
+}
+
+.div2 #circle1{
+  
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  background: linear-gradient(var(--sndcolor),rgb(26, 26, 26));
   position: relative;
-  top: 90px;
-  left: 50px;
+  top: 100px;
+  left: 100px;
+  box-shadow: rgba(0, 0, 0, 0.296) 10px -15px 40px;
 }
 
-.sous-div1{
-  content: url("../../../imgs/icons8-waving-hand-emoji-96.png");  
-  width: 30%;
-  height: 100%;
+.div2 #circle2{
+  background: linear-gradient(var(--sndcolor),rgb(195, 195, 195));
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  position: relative;
+  bottom: 400px;
+  left: 290px;
+  box-shadow: rgba(0, 0, 0, 0.296) 10px -15px 40px;
 }
-.sous-div2{
-  height: 100%;
-  width: 70%;
-  padding-left: 20px;
-  line-height: 35px;
-
+.div2 #cirlceimg{
+  width: 500px;
+  height: 500px;
 }
 
+.div2 #circleimg{
+  width: 400px;
+  content: url("../../../imgs/myPhoto.png");
+
+  position: relative;
+  bottom: 670px;
+  left: 125px;
+  border-radius: 260px;
+  z-index: 1;
+}
 /* ====================== DIV 3 ==============================*/
 .socialmedia{
-
-  height: 400px;
+  height: 55%;
   width: 80px;
-  float: right;
-  margin-top: 100px;
+  margin-top: 120px;
   text-align:center;
 }
 
 .divSM{
-
   display:inline-block;
- 
   margin : auto;
   margin-top: 22px;
-  width: 60px;
-  height:60px;
+  width: 50px;
+  height:50px;
   border-radius: 100%;
-  background-color: red;
-
+  background-color: var(--sndcolor);
 }
-#linkdin{
-  content: url();
+
+.icons{
+  width: 50%;
+  height: 100%;
+  font-size: 30px;
+}
+
+.divSM:hover{
+  display:inline-block;
+  margin : auto;
+  margin-top: 22px;
+  width: 50px;
+  height:50px;
+  border-radius: 100%;
+  background-color: var(--sndcolorhover);
 }

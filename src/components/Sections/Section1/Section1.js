@@ -1,57 +1,58 @@
 import React from "react";
 import "./Section1.css";
-import Layer1 from "./layer1/layer1";
+import { FaBehance, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Typical from 'react-typical'
 
-
- function Section1() {
+function Section1() {
   return (
-    <div className="section1 container">
+    <section className="section1 container" >
       <div className="d-flex">
-
-
-
-
-
-
-
-
-
         <div className="div1">
+          <span>{"</>"}</span>
+          <div className="barredeco"></div>
+          <p className="hello_iam">Hello, I am</p>
+          <h1 id="nom">Nabil Kannane</h1>
+          <Typical id="domaine"
+        steps={['FULL STACK DEVELOPER', 5000,' ', 5000,]}
+        loop={Infinity}
+        wrapper="p"
+            />
+   
+          <p id="paragraphe">
+            My specialty is to Help startups,brands, agences
+            
+            to increase from<br /> their productivity by creating
+           
+            attractive and clean<br /> Web/mobile application
+          </p>
+          <div className="btns">
+          <button id="btnHireMe">Hire me</button>
+          <button id="btnResume">Resume</button></div>
+        </div>
 
-          <div className="Div1Card d-flex">
-            <div className="sous-div1"></div>
-            <div className="sous-div2">
-              <h3>Hello , I am</h3>
-              <h2>Nabil Kannane</h2>
-              
-              </div>
+        <div className="div2">
+          <div id="circle1"></div>
+          <div id="circle2"></div>
+          <div id="circleimg"></div>
+        </div>
+{/*
+        <div className="socialmedia">
+          <div className="divSM">
+            <FaLinkedin className="icons" />
           </div>
-
+          <div className="divSM">
+            <FaGithub className="icons" />
+          </div>
+          <div className="divSM">
+            <FaBehance className="icons" />
+          </div>
+          <div className="divSM">
+            <FaInstagram className="icons" />
+          </div>
         </div>
-
-
-
-
-
-
-
-
-
-        <Layer1/>
-        <div className="div3">
-
-            <div className="socialmedia">
-                <div id="linkdin"className="divSM"></div>
-                <div className="divSM"></div>
-                <div className="divSM"></div>
-                <div className="divSM"></div>
-            </div>
-
-
-
-        </div>
+  */}
       </div>
-    </div>
+    </section>
   );
 }
 

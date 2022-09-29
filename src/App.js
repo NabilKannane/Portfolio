@@ -8,16 +8,17 @@ import Section5 from './components/Sections/Section5/Section5';
 
 function App() {
   return (
-   
+    <>
+         <Navbar/>
     <div className='container'>
-      <Navbar/>
-      <Section1/>
-      <Section2/>
+
+      <Section1 />
+      <Section2 />
       <Section3/>
       <Section4/>
       <Section5/>      
     </div>
-
+</>
   );
 }
 
