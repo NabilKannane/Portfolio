@@ -37,4 +37,14 @@ body{
 
 .section {
     width: 1320px;
+    padding-bottom: 40px;
+}
+
+.loader{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--darkbg);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }

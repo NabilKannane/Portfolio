@@ -4,7 +4,7 @@ import TitleSection from "../TitleSection/TitleSection";
 
 export default function Section1() {
   return (
-    <section className="section" id="skills">
+    <section className="section section2" id="skills">
       <TitleSection
         title="Skills"
         tparagraphe="Im sharing with you some framworks and tools that i used on my several project as Ui/Ux Designer and Web Developper"
@@ -14,7 +14,7 @@ export default function Section1() {
           <div className="souscard">
             <div className="minicard">
               <br />
-              <img src="https://via.placeholder.com/150" />
+              <img src="https://cdn-icons-png.flaticon.com/512/4052/4052960.png" width={150}/>
               <br />
               <span>Web Developer</span>
             </div>
@@ -27,7 +27,7 @@ export default function Section1() {
           <div className="souscard">
             <div className="minicard">
               <br />
-              <img src="https://via.placeholder.com/150" />
+              <img src="https://cdn-icons-png.flaticon.com/512/4053/4053022.png" width={150} />
               <br />
               <span>Graphic Design</span>
             </div>

@@ -1,5 +1,5 @@
 .section2{
-    background-color: blue;
+    background-color: var(--darkbg);
     width: 1320px;
 }
 
@@ -14,6 +14,7 @@
     border: solid 3px var(--sndcolor);
     justify-content: center;
     border-radius: 50px;
+    box-shadow: black 10px 5px 40px;
 }
 
 .souscard{
@@ -31,6 +32,8 @@
     position: relative;
     left: 22%;
     bottom: 50px;
+    box-shadow: black 10px 5px 40px;
+
 }
 
 .card2{
@@ -38,6 +41,7 @@
     height: 500px;
     border: solid 3px var(--sndcolor);
     border-radius: 50px;
+    box-shadow: black 10px 5px 40px;
 
 }
 
